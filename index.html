@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Lop CNPM </title>
-    <style>
-       
-        
-    </style> 
+     
 </head>
 <body>
+
     <div id="home">
       <div id="login form">
-        <div><span>Dang nhap</span><span>X</span></div>
+
+        <div class="login-form-header"><span class="title-header">Dang nhap</span><span  style="position: absolute; top: 19px; right: 19px">X</span></div>
         <div id="login body">
             <div>
                 <label for="">Ten dang nhap</label><br>
                 <input type="text">
                
             </div>
-            <div>
-                <span> <label for="">Mat khau</label> <span><a href="https://www.google.com/">Quen mat khau</a></span><br>
-                    <input type="text">
-                </span>
-               
+            <div style="margin-top: 40px;display: flex; justify-content: space-between; width: 462px;"
+>
+                <span> <label for="">Mat khau</label></span> <span><a href="https://www.google.com/">Quen mat khau</a></span>
             </div>
-            <div>
-                <button>Dang nhap</button>
+            <input type="password" />
+            <div class="login-button">Dang nhap</div>
+            <p class="login-with">Hoac dang nhap bang</p>
+            <div  style=" display: flex; justify-content: space-around; padding-top: 10px;"
+>
+                <span  class="otherway"><i class="fa fa-brands fa-facebook"style="font-size: 16px; padding-right: 5px"></i>Facebook</span>
+                <span  class="otherway"><i class="fa fa-brands fa-facebook"style="font-size: 16px; padding-right: 5px"></i>Google</span>
             </div>
-            <p>Dang nhap bang</p>
-            <div>
-                <span><button>Face book</button></span>
-                <span><button>google</button></span>
-            </div>
-            <p>Ban chua co tai khoan <a href="https://www.google.com/">dang ki ngay</a></p>
+            <p class="footer">Ban chua co tai khoan <a href="https://www.google.com/">Dang ki ngay</a></p>
         </div>
 
 
@@ -41,6 +43,6 @@
       </div>
 
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
