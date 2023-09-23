@@ -1,31 +1,30 @@
 console.log("Hello World");
 
-// let a = 0;
+ let a = 0;
 
-// const B = 1;
+ const B = 1;
 
-// // a = "Hello World";
-// console.log(a + B, a - B, a * B, a / B);
+a = "Hello World";
+console.log(a + B, a - B, a * B, a / B);
 
-// const myObject = {
-//   id: "1232131",
-//   name: "Hoc Tran",
-// };
+ const myObject = {
+ id: "1232131",
+  name: "Phung Quoc Dat",
+ };
 
-// const name = "Hoc Tran";
+const name = "Phung Quoc Dat";
 
-// //Array
-// const myArray = [];
-// myArray.push("hoctran");
-// myArray.push(1);
+Array
+   const myArray = [];
+ myArray.push("Phung Quoc Dat");
+ myArray.push(1);
 
-// let a = 1;
+let a = 1;
 
-// let b = a;
+let b = a;
 
-// a = 2;
-
-// console.log(b); //1
+a = 2;
+ console.log(b); 
 
 let aObject = {
    a: 1,
